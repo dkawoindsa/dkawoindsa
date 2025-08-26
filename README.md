@@ -22,17 +22,6 @@
 ---
 
 <div align="center">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact Me </h2>
-  <br>
-  
-  [![Notion Badge](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white)](https://www.notion.so/본인노션링크)
-  [![Gmail Badge](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:dbrkdalswkd@gmail.com)
-
-</div>
-
----
-
-<div align="center">
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📋 Stat 📋 </h2>
   <br>
         <img src="https://github-readme-stats.vercel.app/api?username=dkawoindsa&show_icons=true&theme=radical"/>
