@@ -23,8 +23,7 @@
     <div align= "center">  </div> 
     </div>
     <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div align= "center"> ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dkawoindsa&show_icons=true&theme=radical)    
-
-<br> </div> 
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2>
+        ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dkawoindsa&theme=dark&show_icons=true&theme=radical)
     </div>
     
