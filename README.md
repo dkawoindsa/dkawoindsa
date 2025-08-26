@@ -17,13 +17,14 @@
     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
     <div align= "center"> <a href=> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white&link="> </a>
-         <a href=mailto:dbrkdalswkd@gmail.com> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:"> </a>
+         <a href=mailto:dbrkdalswkd@gmail.com> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:dbrkdalswkd@gmail.com"> </a>
           </div>  <br> 
-    <div align= "center">  </div> 
     </div>
-   <div align= "center">
+     <div align= "center">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📋 Stat 📋 </h2>
+    
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=dkawoindsa&show_icons=true&theme=radical)    
+
 <br>
     </div>
     
