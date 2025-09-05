@@ -7,5 +7,5 @@ let [mathB, engB] = num[1].split(' ').map(Number);
 if (mathA > mathB && engA > engB) {
     console.log(1)
 } else {
-    console.log(2)
+    console.log(0)
 }
