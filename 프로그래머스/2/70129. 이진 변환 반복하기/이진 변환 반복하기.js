@@ -12,8 +12,7 @@ function solution(s) {
             cntZero++;
         }
     }
-    len = len.toString(2);
-    s = len;
+    s = len.toString(2);
     cnt++
     }
    
