@@ -1,14 +1,13 @@
 function solution(brown, yellow) {
-    var answer = [];
+    const total = brown + yellow;
     
-    for (let i = 1; i <= brown + yellow; i++) {
-        if ((brown + yellow) % i === 0 && ((i - 2) * ((brown + yellow) / i - 2)) === yellow && i >= (brown + yellow) / i) {
+    for (let h = 1; h <= Math.sqrt(total); h++) {
+        if (total % h === 0) {
+            const w = total / h;
             
-            answer.push(i, (brown + yellow) / i)
+            if ((w - 2) * (h - 2) === yellow) {
+                return [w, h];
+            }
         }
     }
-    
-    
-    
-    return answer;
 }
