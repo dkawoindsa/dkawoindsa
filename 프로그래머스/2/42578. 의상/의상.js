@@ -10,6 +10,5 @@ function solution(clothes) {
         answer *= (clothesObj[category] + 1)
     }
     
-    
     return answer - 1;
 }
