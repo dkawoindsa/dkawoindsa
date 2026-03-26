@@ -1,6 +1,6 @@
 function solution(priorities, location) {
+    let answer = 0;
     let queue = priorities.map((p, i) => [p, i]);
-    let count = 0;
     
     while (true) {
         let current = queue.shift();
@@ -8,12 +8,12 @@ function solution(priorities, location) {
         if (queue.some(item => item[0] > current[0])) {
             queue.push(current);
         } else {
-            count++;
+            answer++
             
-            if (current[1] === location) {
-                return count;
+            if (location === current[1]) {
+                return answer;
             }
         }
     }
-
+    
 }
