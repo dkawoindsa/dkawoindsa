@@ -1,21 +1,13 @@
 function solution(s) {
     let answer = '';
-    let isStart = true;
+    s = s.toLowerCase();
     
     for (let i = 0; i < s.length; i++) {
-        
-        if (s[i] === ' ') {
-           answer += ' ';
-           isStart = true;
+        if (s[i - 1] === ' ' || i === 0) {
+            answer += s[i].toUpperCase();
         } else {
-            if (isStart) {
-                answer += s[i].toUpperCase();
-                isStart = false;
-            } else {
-                answer += s[i].toLowerCase();
-            }
+            answer += s[i];
         }
     }
-    
     return answer;
 }
