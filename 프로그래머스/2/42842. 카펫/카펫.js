@@ -1,13 +1,14 @@
 function solution(brown, yellow) {
-    const total = brown + yellow;
+    let tot = brown + yellow;
     
-    for (let h = 1; h <= Math.sqrt(total); h++) {
-        if (total % h === 0) {
-            const w = total / h;
+    for (let h = 3; h <= Math.sqrt(tot); h++) {
+        if (tot % h === 0) {
+            let w = tot / h
             
             if ((w - 2) * (h - 2) === yellow) {
                 return [w, h];
             }
-        }
+        } 
     }
+    
 }
