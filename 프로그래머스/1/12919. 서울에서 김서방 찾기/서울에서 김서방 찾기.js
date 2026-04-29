@@ -1,5 +1,4 @@
 function solution(seoul) {
-    let answer = '';
     let whereKim = 0;
     
     for (let i = 0; i < seoul.length; i++) {
